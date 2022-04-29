@@ -1,0 +1,315 @@
+body {
+    background: #1f2527;
+    font-family: Trebuchet MS, sans-serif;
+    color : whitesmoke;
+    margin : 0px;
+}
+
+h2{
+    font-size : 35px;
+}
+
+
+.title{
+    text-align: left;
+    margin-top : 25px;
+    font-weight: 200;
+    margin-left :25px;
+}
+
+.menu{
+    text-align: right;
+    margin-top: -70px;
+    margin-right: 50px;
+    color: whitesmoke;
+}
+
+.presentationbutton {
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #4E2E4A; 
+    opacity: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.experiencesbutton {
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #4E2E4A; 
+    opacity: 50%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.experiencesbutton a{
+    color: whitesmoke;
+    text-decoration : none;
+}
+
+.presentationbutton:hover {
+    opacity: 50%;
+    transition-duration: 0.2s;
+}
+
+.experiencesbutton:hover {
+    opacity: 100%;
+    transition-duration: 0.2s;
+}
+
+.profilephoto {
+    width : 200px;
+    height : 200px;
+    border-radius: 300px;
+    margin-top: 50px;
+}
+
+.site-description {
+	margin-top : -15px;
+    margin-left: 25px;
+	text-align: left;
+    color: currentColor;
+    font-size: 12px;
+}
+
+.entrytitle {
+    margin-left: 255px;
+    margin-top: 60px;
+}
+
+.presentation{
+    display:  inline-block;
+    margin-left: 50px;
+    font-size : 16px;
+    margin-top: 20px;
+    text-align: justify;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 5000px;
+}
+
+.presentation p {
+    display: inline-block;
+    width: 600px;
+    padding: 25px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+
+.firstcharacter {
+  color: whitesmoke;
+  float: left;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.maj{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.passions {
+    margin-left: 255px;
+    margin-top: 60px;
+}
+
+.passioncards img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.passioncards  {
+    width: 300px;
+    display: inline-block;
+    margin-left: 2.8em;
+    margin-right: auto;
+    margin-top:  20px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.passioncards p {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top : auto;
+}
+
+.passioncards:hover {
+    transition-duration: 0.3s ;
+    transition-timing-function: ease-in-out;
+    transform: translateY(-15px);
+}
+
+.competencestitle {
+    margin-left: 255px;
+    margin-top: 60px;
+}
+
+.competencessubtitle{
+    margin-left: 255px;
+}
+
+.competences {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 5000px;
+}
+.competencespictos {
+    display: inline-block;
+    padding: 20px;
+}
+
+.competencespictos img {
+    width : 100px;
+}
+
+.competencespictos p {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top : 15px;
+}
+
+.competencesacademiquestitle {
+    margin-left: 255px;
+    margin-top: 50px;
+}
+
+.competencesacademiques {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 5000px;
+}
+
+.competencesacademiquespictos {
+    display: inline-block;
+    padding: 25px;
+}
+
+.competencesacademiquespictos img {
+    width : 125px ;
+}
+
+.cv {
+    width : 40px;
+    height : 40px;
+    background: none;
+    display: inline-block;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.cv img{
+    width : 40px;
+    height : 40px;
+}
+
+.cv p {
+    display: inline-block;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 5px;
+    width : 25px;
+    opacity: 0%;
+}
+
+.linkedin {
+    width : 40px;
+    height : 40px;
+    background: none;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align : center;
+}
+
+.linkedin img{
+    width : 40px;
+    height : 40px;
+}
+
+.linkedin p{
+    display: inline-block;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 5px;
+    width : 25px;
+    text-align: center;
+    opacity: 0%;
+} 
+
+.sidebar {
+    position : fixed;
+    top : 150px;
+    left: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: #4E2E4A;
+    width: 55px;
+    height : 100px;
+    border-radius: 15px;
+    align-content: right;
+    opacity: 50%;
+    align-content: center;
+}
+
+.sidebar:hover {
+    position : fixed;
+    top : 150px;
+    left: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: #4E2E4A;
+    width: 70px;
+    height : 185px;
+    border-radius: 15px;
+    align-content: right;
+    transition-duration: 0.5s;
+    opacity: 100%;
+}
+
+.sidebar:hover .linkedin {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: translateY(40px);
+}
+
+.sidebar:hover p{
+    opacity: 100%;
+}
+
+.footer{
+    width : 5000px: ;
+    height: 100px;
+    background-color: #434349;
+    text-decoration: none;
+}
+
+.footer h3{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer a {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer p {
+    text-align : center;
+}
+
+
+
